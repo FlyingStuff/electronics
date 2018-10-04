@@ -1,4 +1,4 @@
-(module NanoPi_Header (layer F.Cu) (tedit 5BB59A94)
+(module NanoPi_Header (layer F.Cu) (tedit 5BB5ACA0)
   (descr "surface-mounted straight socket strip, 2x12, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
   (tags "Surface mounted socket strip SMD 2x12 2.54mm double row")
   (attr smd)
@@ -120,8 +120,8 @@
   (pad "" thru_hole circle (at 18.76 6.362) (size 1.02 1.02) (drill 1.02) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 17.49 12.712) (size 1.8 1.8) (drill 1.8) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/3dmodels/nanopi-with-headers.wrl
-    (offset (xyz -2.5 -20.5 6.5))
-    (scale (xyz 397 397 397))
+    (offset (xyz -20 -20 6.5))
+    (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 180 90))
   )
 )
