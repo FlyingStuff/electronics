@@ -776,16 +776,14 @@ Text Notes 3000 2600 0    50   ~ 0
 alpha
 Text Notes 5050 2600 0    50   ~ 0
 beta
-Text Notes 6900 2550 0    50   ~ 0
+Text Notes 6900 2650 0    50   ~ 0
 dynamic pressure
 Text Notes 2850 5550 0    50   ~ 0
 static pressure
-Text Notes 6950 2650 0    50   ~ 0
-up to 50km/h
 Text Notes 5200 5450 0    50   ~ 0
 dynamic pressure
-Text Notes 5250 5550 0    50   ~ 0
-up to 380km/h
+Text Notes 5100 5550 0    50   ~ 0
+up to 380km/h (6890Pa)
 $Comp
 L Device:C_Small C5
 U 1 1 5C75F76A
@@ -887,4 +885,6 @@ Wire Wire Line
 	5300 1850 5300 1750
 Text Notes 5250 6550 0    50   ~ 0
 I2C Address 0x28
+Text Notes 8950 3250 0    50   ~ 0
+SDP32 (125Pa) up to 50km/h\nSDP31 (500Pa) up to 100km/h\nSDP33 (1500Pa) up to 180km/h
 $EndSCHEMATC
