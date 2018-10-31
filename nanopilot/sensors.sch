@@ -631,8 +631,8 @@ U 1 1 5BA2C6C7
 P 2500 6300
 F 0 "U15" H 2750 6050 50  0000 C CNN
 F 1 "24LC256" H 2700 6550 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2500 6300 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf" H 2500 6300 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2500 6300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/24AA256-24LC256-24FC256-Data-Sheet-20001203V.pdf" H 2500 6300 50  0001 C CNN
 	1    2500 6300
 	1    0    0    -1  
 $EndComp

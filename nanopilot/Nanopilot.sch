@@ -25,7 +25,7 @@ F 3 "" H 13950 1400 60  0001 C CNN
 	1    13950 1400
 	1    0    0    -1  
 $EndComp
-Text Label 14550 3600 0    60   ~ 0
+Text Label 14500 3500 0    60   ~ 0
 I2C_POWER
 $Comp
 L power:GND #PWR084
@@ -38,7 +38,7 @@ F 3 "" H 14750 1650 50  0001 C CNN
 	1    14750 1650
 	1    0    0    -1  
 $EndComp
-Text Label 12750 3900 0    60   ~ 0
+Text Label 12750 3800 0    60   ~ 0
 I2C_POWER_EN
 $Comp
 L Device:C_Small C28
@@ -223,12 +223,12 @@ $EndComp
 $Comp
 L Device:C_Small C32
 U 1 1 5B27ABB0
-P 15400 3800
-F 0 "C32" H 15410 3870 50  0000 L CNN
-F 1 "0.1uF" H 15410 3720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 15400 3800 50  0001 C CNN
-F 3 "" H 15400 3800 50  0001 C CNN
-	1    15400 3800
+P 15100 3800
+F 0 "C32" H 15110 3870 50  0000 L CNN
+F 1 "0.1uF" H 15110 3720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15100 3800 50  0001 C CNN
+F 3 "" H 15100 3800 50  0001 C CNN
+	1    15100 3800
 	1    0    0    1   
 $EndComp
 Text Label 12800 3600 0    60   ~ 0
@@ -247,12 +247,12 @@ $EndComp
 $Comp
 L Device:C_Small C29
 U 1 1 5B27ABCA
-P 15100 3800
-F 0 "C29" H 15110 3870 50  0000 L CNN
-F 1 "0.1uF" H 15110 3720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 15100 3800 50  0001 C CNN
-F 3 "" H 15100 3800 50  0001 C CNN
-	1    15100 3800
+P 15400 3800
+F 0 "C29" H 15410 3870 50  0000 L CNN
+F 1 "0.1uF" H 15410 3720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15400 3800 50  0001 C CNN
+F 3 "" H 15400 3800 50  0001 C CNN
+	1    15400 3800
 	1    0    0    1   
 $EndComp
 $Comp
@@ -297,17 +297,17 @@ Wire Wire Line
 Connection ~ 13400 3600
 Text Label 12650 1450 0    60   ~ 0
 NANOPI_POWER_EN
-Text Label 14650 2350 0    60   ~ 0
+Text Label 14650 2450 0    60   ~ 0
 USB2_POWER
-Text Label 12700 2650 0    60   ~ 0
+Text Label 12750 2750 0    60   ~ 0
 USB2_POWER_EN
-Text Label 12700 2750 0    60   ~ 0
+Text Label 12750 2650 0    60   ~ 0
 USB3_POWER_EN
 Text Label 14550 1250 0    60   ~ 0
 GPS_POWER
-Text Label 14500 3500 0    60   ~ 0
+Text Label 14500 3600 0    60   ~ 0
 TELEM_POWER
-Text Label 12700 3800 0    60   ~ 0
+Text Label 12650 3900 0    60   ~ 0
 TELEM_POWER_EN
 Text Label 12700 1550 0    60   ~ 0
 GPS_POWER_EN
@@ -700,7 +700,7 @@ Wire Wire Line
 	6150 3300 6150 3250
 Text Label 7300 5050 0    50   ~ 0
 ~SHDN_SENS
-Text Label 7300 5550 0    60   ~ 0
+Text Label 7300 5250 0    60   ~ 0
 I2C_POWER_EN
 Text Label 7300 5150 0    60   ~ 0
 NANOPI_POWER_EN
@@ -708,7 +708,7 @@ Text Label 7300 5350 0    60   ~ 0
 USB2_POWER_EN
 Text Label 7300 5650 0    60   ~ 0
 USB3_POWER_EN
-Text Label 7300 5250 0    60   ~ 0
+Text Label 7300 5550 0    60   ~ 0
 TELEM_POWER_EN
 Text Label 7300 5450 0    60   ~ 0
 GPS_POWER_EN
@@ -2717,7 +2717,7 @@ Wire Wire Line
 	14500 2350 15550 2350
 Wire Wire Line
 	14500 2450 15250 2450
-Text Label 14650 2450 0    60   ~ 0
+Text Label 14650 2350 0    60   ~ 0
 USB3_POWER
 Wire Wire Line
 	15550 2850 15550 2950
@@ -3039,14 +3039,14 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 5CF1F58D
-P 12550 3600
+P 12300 3600
 AR Path="/5B301CE8/5CF1F58D" Ref="R?"  Part="1" 
 AR Path="/5CF1F58D" Ref="R29"  Part="1" 
-F 0 "R29" H 12609 3646 50  0000 L CNN
-F 1 "10k" H 12609 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 12550 3600 50  0001 C CNN
-F 3 "~" H 12550 3600 50  0001 C CNN
-	1    12550 3600
+F 0 "R29" H 12359 3646 50  0000 L CNN
+F 1 "10k" H 12359 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12300 3600 50  0001 C CNN
+F 3 "~" H 12300 3600 50  0001 C CNN
+	1    12300 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3054,14 +3054,14 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 5CF1F595
-P 12300 3600
+P 12550 3600
 AR Path="/5B301CE8/5CF1F595" Ref="R?"  Part="1" 
 AR Path="/5CF1F595" Ref="R26"  Part="1" 
-F 0 "R26" H 12359 3646 50  0000 L CNN
-F 1 "10k" H 12359 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 12300 3600 50  0001 C CNN
-F 3 "~" H 12300 3600 50  0001 C CNN
-	1    12300 3600
+F 0 "R26" H 12609 3646 50  0000 L CNN
+F 1 "10k" H 12609 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12550 3600 50  0001 C CNN
+F 3 "~" H 12550 3600 50  0001 C CNN
+	1    12550 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
