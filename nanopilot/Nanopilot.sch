@@ -764,22 +764,9 @@ Wire Wire Line
 	1300 1300 1300 1400
 Wire Wire Line
 	950  1300 1300 1300
-Wire Wire Line
-	6750 750  7050 750 
 Connection ~ 6750 750 
 Wire Wire Line
 	6200 950  6200 750 
-Wire Wire Line
-	6550 750  6750 750 
-Wire Wire Line
-	6200 750  6550 750 
-Connection ~ 6550 750 
-Wire Wire Line
-	6550 850  6550 750 
-Wire Wire Line
-	6550 1200 6550 1150
-Wire Wire Line
-	6500 1200 6550 1200
 Wire Wire Line
 	6150 950  6200 950 
 Wire Wire Line
@@ -802,8 +789,6 @@ Wire Wire Line
 Connection ~ 4850 950 
 Wire Wire Line
 	5150 950  4850 950 
-Wire Wire Line
-	3750 800  3750 750 
 Wire Wire Line
 	3750 1200 3750 1100
 Wire Wire Line
@@ -850,7 +835,7 @@ F 3 "" H 750 1100 50  0001 C CNN
 	1    750  1100
 	-1   0    0    -1  
 $EndComp
-Text Label 6850 750  0    60   ~ 0
+Text Label 7350 750  2    60   ~ 0
 V_peripheral
 $Comp
 L power:+5V #PWR033
@@ -866,34 +851,34 @@ $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5B2739B5
-P 6550 1000
-F 0 "D3" H 6550 1100 50  0000 C CNN
-F 1 "OC PERIPHERAL" V 6700 1050 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6550 1000 50  0001 C CNN
-F 3 "" H 6550 1000 50  0001 C CNN
-	1    6550 1000
+P 7500 1000
+F 0 "D3" H 7500 1100 50  0000 C CNN
+F 1 "OC PERIPHERAL" V 7650 1050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7500 1000 50  0001 C CNN
+F 3 "" H 7500 1000 50  0001 C CNN
+	1    7500 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR047
 U 1 1 5B2739A0
-P 6750 1250
-F 0 "#PWR047" H 6750 1000 50  0001 C CNN
-F 1 "GND" H 6750 1100 50  0000 C CNN
-F 2 "" H 6750 1250 50  0001 C CNN
-F 3 "" H 6750 1250 50  0001 C CNN
-	1    6750 1250
+P 6750 1050
+F 0 "#PWR047" H 6750 800 50  0001 C CNN
+F 1 "GND" H 6750 900 50  0000 C CNN
+F 2 "" H 6750 1050 50  0001 C CNN
+F 3 "" H 6750 1050 50  0001 C CNN
+	1    6750 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C15
 U 1 1 5B273999
-P 6750 1050
-F 0 "C15" H 6775 1150 50  0000 L CNN
-F 1 "22uF" H 6775 950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6750 1050 50  0001 C CNN
-F 3 "490-9952-1-ND" H 6750 1050 50  0001 C CNN
-	1    6750 1050
+P 6750 900
+F 0 "C15" H 6775 1000 50  0000 L CNN
+F 1 "22uF" H 6775 800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6750 900 50  0001 C CNN
+F 3 "490-9952-1-ND" H 6750 900 50  0001 C CNN
+	1    6750 900 
 	1    0    0    -1  
 $EndComp
 Text Notes 6300 1700 0    60   ~ 0
@@ -963,17 +948,6 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 3750 950 50  0001 C CNN
 F 3 "" H 3750 950 50  0001 C CNN
 	1    3750 950 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR022
-U 1 1 5B2717A8
-P 3750 750
-F 0 "#PWR022" H 3750 600 50  0001 C CNN
-F 1 "+5V" H 3750 890 50  0000 C CNN
-F 2 "" H 3750 750 50  0001 C CNN
-F 3 "" H 3750 750 50  0001 C CNN
-	1    3750 750 
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR026
@@ -1114,17 +1088,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 1300 50  0001 C CNN
 F 3 "" H 2150 1300 50  0001 C CNN
 	1    2150 1300
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR018
-U 1 1 5B1C82F3
-P 3500 750
-F 0 "#PWR018" H 3500 600 50  0001 C CNN
-F 1 "+5V" H 3500 890 50  0000 C CNN
-F 2 "" H 3500 750 50  0001 C CNN
-F 3 "" H 3500 750 50  0001 C CNN
-	1    3500 750 
-	1    0    0    -1  
 $EndComp
 $Comp
 L symbols:TPS25200 U3
@@ -3748,9 +3711,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 1100 4100 1200
 Wire Wire Line
-	6750 1150 6750 1250
+	6750 1000 6750 1050
 Wire Wire Line
-	6750 750  6750 950 
+	6750 750  6750 800 
 Wire Wire Line
 	7200 4250 7500 4250
 Wire Wire Line
@@ -4750,4 +4713,35 @@ Wire Wire Line
 Connection ~ 12200 1050
 Wire Wire Line
 	12200 1050 12200 1150
+Text Label 4650 550  2    60   ~ 0
+LL_CTRL_POWER
+$Comp
+L power:+5V #PWR018
+U 1 1 5B1C82F3
+P 3500 750
+F 0 "#PWR018" H 3500 600 50  0001 C CNN
+F 1 "+5V" H 3500 890 50  0000 C CNN
+F 2 "" H 3500 750 50  0001 C CNN
+F 3 "" H 3500 750 50  0001 C CNN
+	1    3500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 550  4650 550 
+Wire Wire Line
+	3750 550  3750 800 
+Text Label 8250 750  2    60   ~ 0
+LL_CTRL_POWER
+Wire Wire Line
+	7500 1200 7500 1150
+Wire Wire Line
+	6500 1200 7500 1200
+Wire Wire Line
+	7500 850  7500 750 
+Wire Wire Line
+	6200 750  6750 750 
+Wire Wire Line
+	7500 750  8250 750 
+Wire Wire Line
+	6750 750  7350 750 
 $EndSCHEMATC
