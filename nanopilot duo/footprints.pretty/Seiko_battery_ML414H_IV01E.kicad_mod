@@ -1,0 +1,17 @@
+(module Seiko_battery_ML414H_IV01E (layer F.Cu) (tedit 5CA7DEBE)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Seiko_battery_ML414H_IV01E (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 2.4 0) (layer F.SilkS) (width 0.15))
+  (pad 1 smd custom (at 2.7 -2.7) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -2.4 0) (xy 0 0) (xy 0 2.4)) (width 0))
+    ))
+  (pad 2 smd rect (at 2.7 2.7) (size 4.1 1.7) (drill (offset -2.05 -0.85)) (layers F.Cu F.Paste F.Mask))
+)
