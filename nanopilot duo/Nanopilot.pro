@@ -1,4 +1,4 @@
-update=2019 May 05, Sunday 22:02:29
+update=2019 May 27, Monday 15:44:25
 version=1
 last_client=kicad
 [cvpcb]
@@ -9,16 +9,6 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -72,3 +62,13 @@ SolderPasteRatio=-0
 [pcbnew/Layer.In2.Cu]
 Name=GND
 Type=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
