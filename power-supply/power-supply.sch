@@ -2406,4 +2406,8 @@ Wire Wire Line
 Connection ~ 3150 4100
 Wire Wire Line
 	3150 4100 3600 4100
+Text Notes 2650 1200 0    50   ~ 0
+should be 200k
+Text Notes 7400 1600 0    50   ~ 0
+should be 200k
 $EndSCHEMATC
